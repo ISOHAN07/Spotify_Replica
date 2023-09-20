@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.Navbar{
+    height: 87%;
+    width: 18%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+.content{
+    height: 87%;
+    left: 18%;
+    width: 82%;
+    position: absolute;
+    background-color: rgba(12, 8, 8, 0.95);
+}
+.NavbarContainer{
+    position: relative;
+    width: 80%;
+    height: 20%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-around;
+}
+.Home{
+    width: 100%;
+    height: 18%;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+.Search{
+    width: 100%;
+    height: 22%;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgb(52, 47, 47);
+    padding-left: 10px;
+}
+.YourLibrary{
+    width: 100%;
+    height: 18%;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+.SongContainer{
+    position: relative;
+    width: 80%;
+    height: 20%;
+    top: 26%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+.CreatePlaylist{
+    width: 100%;
+    height: 18%;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+
+}
+.LikedSongs{
+    width: 100%;
+    height: 18%;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.YourEpisodes{
+    width: 100%;
+    height: 18%;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+.Installation{
+    position: absolute;
+    width: 90%;
+    height: 5%;
+    bottom: 1%;
+    color: white;
+    align-items: center;
+    display: flex;
+    left: 50px;
+    font-size: 17px;
+}
+
+.lefticon{
+    top: 5%;
+    left: 8%;
+    position: relative;
+}
+/* .righticon{
+    top: 30%;
+    left: 20%;
+    position: relative;
+} */
+.righticon{
+    /* top: 5%; */
+    left: 13%;
+    position: relative;
+
+}.searchbarcontainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 16%;
+    width: 50%;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 25px;
+    top: 3.8%;
+}
+.searchtext{
+    margin-left: 10%;
+    font-size: 20px;
+    color: rgba(0,0,0,0.65);
+    font-family: Inter;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.Searchicon{
+    position: relative;
+    left: -48%;
+}
+.Genres{
+    position: relative;
+    top: 1%;
+    width: 100%;
+    height: 35%;
+}
+.yourgenre{
+    font-size: 23px;
+    color: white;
+    margin-left: 6%;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-weight: 700;
+}
+/* .genrecontainer{
+    display: flex;
+    flex-direction: row;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+} */
+
+.pop{
+    width: 400px;
+    height: 175px;
+    border-radius: 10px;
+    background-color: rgb(185,119,219);
+    margin-right: 10px;
+    margin-left: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: Inter;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.hiphop{
+    width: 400px;
+    height: 175px;
+    border-radius: 10px;
+    background-color: rgb(255, 86, 25);
+    margin-right: 50px;
+    margin-left: 46%;
+    /* margin-bottom: 50%; */
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: Inter;
+    font-weight: bolder;
+    margin-top: 50px;
+    position: absolute;
+    top: 0%;
+
+}
+.Browse{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 38%;
+}
+.browse{
+    font-size: 23px;
+    color: white;
+    margin-left: 6%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.typecontainer{
+    top: 5%;
+    width: 100%;
+    height: 250px;
+    overflow-x: auto;
+}
+.Scroll{
+    width: fit-content;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 40px;
+    overflow: hidden;
+}
+
+.Song{
+    width: 190px;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 23px;
+    color: white;
+    font-family: Inter;
+    font-weight: bolder;
+}
+.Song:first-child{
+    left: 0;
+    background-color: darkcyan;
+}
+.Song:nth-child(2){
+    left: 25;
+    background-color: darkblue;
+}
+.Song:nth-child(3){
+    left: 50%;
+    background-color: rgb(185, 119, 219);
+}
+.Song:nth-child(4){
+    left: 75%;
+    background-color:rgb(212, 57, 57);
+}
+.Song:nth-child(5){
+    left: 100%;
+    background-color: deeppink;
+}
+.end{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 122%;
+    height: 17%;
+    top: 100%;
+    left: -22%;
+    background-color: black;
+}
+.songsymbol{
+    width: 50px;
+    height: 50px;
+}
+.songname{
+    position: absolute;
+    left: 100px;
+    font-size: 12px;
+    font-family: Inter;
+    color: white;
+    top: 50%;
+    transform: translateY(-100%);
+    font-weight: bolder;
+}
+.singer{
+    position: absolute;
+    left: 100px;
+    font-size: 12px;
+    font-family: Inter;
+    color: white;
+    top: 50%;
+    transform: translateY(30%);
+    font-weight: bolder;
+    opacity: 0.5;
+}
+.heart{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
